@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO: title and description show up in Google search results -->
+    <title>Mikaela | Writer and Aspiring Developer Portfolio</title>
+    <meta name="description" content="A creative mind exploring the possibilities of technology as a medium for expression.">
+    <meta name="author" content="Mikaela Joyce Villamor">
+    <meta name="theme-color" content="#2a1a10">
+
+    <meta property="og:title" content="Mikaela | Writer and Aspiring Developer">
+    <meta property="og:description" content="Projects, certificates, and contact details of Mikaela Joyce Villamor.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="Media Assets/images/intro.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="Media Assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Media Assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Media Assets/images/favicon-16x16.png">
+    <link rel="manifest" href="Media Assets/images/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== HEADER / NAVIGATION ========== -->
+    <header>
+        <a href="#home" class="logo">Mikaela</a>
+
+        <!-- Menu button (only visible on mobile) -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
+            <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <nav id="sidebar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#future">Future Plans</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ========== HOME ========== -->
+        <section class="home" id="home">
+            <div class="home-img">
+                <img src="Media Assets/images/intro.jpg" alt="Profile">
+            </div>
+
+            <div class="home-content">
+                <h1>Hi, it's Mikaela</h1>
+                <h2 class="typing-text">I'm a <span id="typing-word"></span></h2>
+                <p class="tagline">A creative mind exploring the possibilities of technology as a medium for expression.</p>
+
+                <div class="home-buttons">
+                    <a href="#projects" class="btn">View my projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact me</a>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1EuY6xJjzu/" target="_blank" rel="noopener" aria-label="Mikaela on Facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/kellaaa.zc" target="_blank" rel="noopener" aria-label="Mikaela on Instagram">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://github.com/mikaela20" target="_blank" rel="noopener" aria-label="Mikaela on GitHub">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mikaela-joyce-villamor-1b0b4b1b9/" target="_blank" rel="noopener" aria-label="Mika on LinkedIn">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ABOUT ========== -->
+        <section class="about" id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-box">
+                <p>
+                    Hello! I'm <strong>Mikaela Joyce U. Villamor</strong>, a college student with a
+                    paradoxical personality and a great passion for writing.
+                </p>
+                <p>
+                    Drawn to both the technical and creative sides of digital work. I continue to develop my skills in the field, 
+                    I hope to explore new learnings, create with intention, and contribute to work that is as thoughtful in its design 
+                    as it is in its function.
+                </p>
+            </div>
+
+            <!-- Skills -->
+            <h3 class="sub-title">Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>Writing</h4>
+                    <p>Creative writing, storytelling, and clear written communication.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Web Development</h4>
+                    <p>I'm working on improving my skills in HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Problem Solving</h4>
+                    <p>Breaking big problems into small steps and fixing bugs patiently.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Traditional & Digital Illustration</h4>
+                    <p>Creating original drawings and visual artwork through traditional or digital mediums, 
+                        focusing on artistic expression, character design, and visual storytelling.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>UI Design (User Interface Design)</h4>
+                    <p>Designing visually appealing and intuitive website interfaces through layout, typography, color, and visual elements.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PROJECTS ========== -->
+        <section class="projects" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="card-grid">
+                <a class="card" href="https://your-project-link.com" target="_blank" rel="noopener">
+                    <img src="Media Assets/images/project1.png" alt="Screenshot of Project Name">
+                    <h3>Luca Keneshiro Fan-page</h3>
+                    <p>A fan-made website dedicated to Luca Kineshiro, featuring information, images, 
+                        and other content about the character. Through this project, 
+                        I learned how to combine HTML, CSS, and JavaScript to create a more engaging and visually appealing webpage.
+                    </p>
+                    <p class="tags">Tools used: HTML, CSS, JavaScript</p>
+                </a>
+
+                <a class="card" href="https://your-project-link.com" target="_blank" rel="noopener">
+                    <img src="Media Assets/images/project2.png" alt="Screenshot of Project Name">
+                    <h3>Tribute Page</h3>
+                    <p>A tribute website dedicated to Hoshimachi Suisei, highlighting her music, achievements, and career as a VTuber. 
+                        This project helped me practice structuring web content and using HTML and CSS to create a cohesive design that reflects its subject.</p>
+                    <p class="tags">Tools used: HTML, and CSS</p>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- ========== CERTIFICATES ========== -->
+        <section class="certificates" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="card-grid">
+
+                <button class="card certificate-card" data-full="Media Assets/images/certificate1.png">
+                    <img src="Media Assets/images/certificate1.png" alt="Certificate of Certificate Name">
+                    <h3>Developing Awareness on Circular Economy Principles and Practices</h3>
+                    <p>Issued by: Tesda Online Program</p>
+                    <p class="tags">2026 &middot; Click to view</p>
+                </button>
+
+                <button class="card certificate-card" data-full="Media Assets/images/certificate2.png">
+                    <img src="Media Assets/images/certificate2.png" alt="Certificate of Certificate Name">
+                    <h3>Receiving and Responding to Workplace Communication</h3>
+                    <p>Issued by: Tesda Online Program</p>
+                    <p class="tags">2026 &middot; Click to view</p>
+                </button>
+                
+                <button class="card certificate-card" data-full="Media Assets/images/certificate3.png">
+                    <img src="Media Assets/images/certificate3.png" alt="Certificate of Certificate Name">
+                    <h3>HTML Essentials course</h3>
+                    <p>Issued by: Cisco Networking Academy</p>
+                    <p class="tags">2025 &middot; Click to view</p>
+                </button>
+
+            </div>
+        </section>
+
+        <!-- ========== FUTURE PLANS ========== -->
+        <section class="future" id="future">
+            <h2 class="section-title">Future Plans</h2>
+
+            <div class="about-box">
+                <ul class="future-list">
+                    <li>Build more projects and add them to this portfolio.</li>
+                    <li>Learn new programming skills, such as JavaScript frameworks and databases.</li>
+                    <li>Earn more certificates in web development.</li>
+                    <li>Share my Art on this website.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ========== CONTACT ========== -->
+        <section class="contact" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="about-box contact-box">
+                <p>Want to work together or just say hello? Send me a message.</p>
+
+                <ul class="contact-list">
+                    <li><ion-icon name="mail-outline"></ion-icon>
+                        <a href="mailto:mikaelavllmr26@gmail.com">mikaelavllmr26@gmail.com</a></li>
+                    <li><ion-icon name="logo-facebook"></ion-icon>
+                        <a href="https://www.facebook.com/mikaela.villamor.277" target="_blank" rel="noopener" aria-label="Mikaela on Facebook">Mikaela Villamor</a></li>    
+                    <li><ion-icon name="call-outline"></ion-icon>
+                        <a href="tel:+639506076986">+63 9506 076 986</a></li>
+                </ul>
+
+                <a href="mailto:mikaelavllmr26@gmail.com" class="btn">Send an email</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== CERTIFICATE VIEWER (pop-up) ========== -->
+    <div class="viewer" id="viewer" aria-hidden="true">
+        <button class="viewer-close" id="viewer-close" aria-label="Close certificate">&times;</button>
+        <img id="viewer-img" src="" alt="Full view of the certificate">
+    </div>
+
+   <!-- ========== FOOTER ========== -->
+    <footer class="site-footer">
+ 
+        <!-- Ornament divider -->
+        <div class="footer-divider"><span>&#10086;</span></div>
+ 
+        <!-- Quote (change it to your favorite one) -->
+        <blockquote class="footer-quote">
+            &ldquo; Wonder is the beginning of wisdom. &rdquo;
+            <cite>&mdash; Socrates</cite>
+        </blockquote>
+ 
+        <p class="footer-copy">&copy; <span id="year">2025</span> Mika's Portfolio. All rights reserved.</p>
+    </footer>
+ 
+    <!-- Icons (Ionicons) -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+    <script src="script.js"></script>
+</body>
+</html>

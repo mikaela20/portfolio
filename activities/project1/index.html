@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="Media Assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Media Assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Media Assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Luca Kaneshiro</title>
+</head>
+<body>
+   <header>
+    <nav id="navbar">
+      <div class="nav-brand"><a href="#">Luca Kaneshiro</a></div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#Med/Bio" class="nav-link">Media Gallery/Biography</a></li>
+        <li><a href="#Affiliation" class="nav-link">Affiliations</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section class="section">
+      <h1>Luca Keneshiro</h1>
+      <img src="Media Assets/images/intro-pic.jpg" alt="Luca Keneshiro" class="Luca-img" />
+      <p id="Introduction">
+       Luca Kaneshiro (ルカ・カネシロ) is a male English-language Virtual YouTuber affiliated with NIJISANJI EN's fourth wave "Luxiem," alongside Shu Yamino, Ike Eveland, Mysta Rias, and Vox Akuma.
+      </p>
+      <h1>Design</h1>
+      
+      <div class="design-container">
+        <div class="design">
+          <img src="Media Assets/images/Luca_Design1.png" class="design-img">
+          <img src="Media Assets/images/luca_Design2.jpg" class="design-img">  
+        </div>  
+      </div>    
+    </section>
+    <h2>Media Gallery/Biography</h2>
+    <section id="Med/Bio" class="container">
+      <!-- LEFT SIDE: Image Slider with Buttons -->
+      <div class="left_box">
+        <div class="slider">
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <div class="slides">
+            <img src="Media Assets/images/img-gallery1.jpg" alt="Image 1" />
+            <img src="Media Assets/images/img-gallery2.jpg" alt="Image 2" />
+            <img src="Media Assets/images/img-gallery3.jpg" alt="Image 3" />
+            <img src="Media Assets/images/img-gallery4.jpg" alt="Image 4" />
+            <img src="Media Assets/images/img-gallery5.jpg" alt="Image 5" />
+          </div>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE: Backstory -->
+      <div class="right_box">
+        <div class="bg_box">
+          <h1>Luca Keneshiro (ルカ・カネシロ)</h1>
+          <p class="txt">
+            Once a fearless mafia boss from the past, Luca Kaneshiro lived by strength, loyalty, and a healthy dose of chaos.Once, in a smoky moonlit city, Luca Kaneshiro reigned as a fiery mafia boss—muscles, tattoos, and swagger included. Always ready to rumble and protect the weak, he lived by strength, loyalty, and dramatic entrances .
+
+            On a fateful night, Luca barged into an alley to defend someone from a mugger. Grabbing the victim’s abandoned bag, he was mistaken for the thief by a detective—Mysta Rias. As they squared off, a mysterious portal appeared and sucked them both into the modern day  .
+
+            Now stuck in the future, Luca still acts like he runs a gang and carries the heart of an old-school boss, but most of his "jobs" involve video games, bonks, and yelling “POG!” at random moments.
+            He might not know how half of today’s tech works, but he does know this:
+          “If you're a criminal... you're one of us.”          </p>
+        </div>
+      </div>
+    </section>
+    <h2>Affiliations</h2>
+    <section id="Affiliation" class="container2">
+      <!-- LEFT SIDE: Image Slider with Buttons -->
+      <div class="left_box2">
+        <div class="slider2">
+          <button class="prev2" onclick="prevSlide2()">&#10094;</button>
+          <div class="slides2">
+            <img src="Media Assets/images/Affiliations1.jpg" alt="Image 5" />
+            <img src="Media Assets/images/Affiliations2.jpg" alt="Image 6" />
+            <img src="Media Assets/images/affiliations3.jpg" alt="Image 7" />
+            <img src="Media Assets/images/Affiliations4.jpg" alt="Image 8" />
+          </div>
+          <button class="next2" onclick="nextSlide2()">&#10095;</button>
+        </div>
+      </div>
+      <!-- RIGHT SIDE: Affiliation -->
+      <div class="right_box2">
+        <div class="bg_box2">
+          <h1>Luxiem x NIJISANJI EN.</h1>
+          <p class="txt2">
+            Luca didn’t land in the future alone. Pulled through fate—and maybe a chaotic magic rift—he became part of Luxiem, a ragtag brotherhood of otherworldly men under NIJISANJI EN.
+
+            He bickers like a confused brother with Mysta Rias, the detective who once chased him down in the past. Ike Eveland, the calm novelist, tries to keep him from accidentally punching vending machines. Shu Yamino, the sorcerer, occasionally casts spells to stop Luca from eating suspicious glowing objects. And Vox Akuma, the demon from eras long before Luca's time, matches his energy with ancient authority—and food debates.
+
+            Together, they’re a timeline-wrecking found family: chaos, magic, brains, muscle, and a whole lot of yelling “POG!”
+            Luca may not know how time travel works, but he knows this much: Luxiem is his gang, 𝘩𝘪𝘴 𝘧𝘢𝘮𝘪𝘭𝘺.</p>
+        </div>
+      </div>
+    </section>
+    <div class="video-wrapper">
+      <div class="video-title">Luca Keneshiro's Intro</div>
+      <video id="video-container" controls>
+        <source src="Media Assets/video/Luca-intro.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+    <br>
+    <footer>
+        © 2025 Luca Keneshiro Fan Page
+    </footer>
+    <br>
+</html>
