@@ -1,16 +1,10 @@
-/* ==========================================================
-   DARK ACADEMIA PORTFOLIO
-   Palette: Golden Batter, Toasted Caramel, Spiced Wine,
-            Olive Harvest, Cowhide Cocoa (+ a darker cocoa)
-   ========================================================== */
-
 :root {
-    --bg-darkest: #24150d;   /* page background */
-    --bg-cocoa: #442D1C;     /* Cowhide Cocoa - cards and header */
-    --wine: #743014;         /* Spiced Wine - buttons and hover */
-    --caramel: #84592B;      /* Toasted Caramel - borders */
-    --gold: #E8D1A7;         /* Golden Batter - main text */
-    --olive: #9D9167;        /* Olive Harvest - small text */
+    --bg-darkest: #24150d;  
+    --bg-cocoa: #442D1C;     
+    --wine: #743014;         
+    --caramel: #84592B;      
+    --gold: #E8D1A7;        
+    --olive: #9D9167;       
 
     --heading-font: "Cormorant Garamond", Georgia, serif;
     --body-font: "Lora", Georgia, serif;
@@ -65,7 +59,7 @@ h1, h2, h3, h4 {
     margin-bottom: 4rem;
 }
 
-/* thin gold line under each section title */
+
 .section-title::after {
     content: "";
     display: block;
@@ -285,7 +279,7 @@ section {
     margin-top: 1rem;
 }
 
-/* Image at the top of each project / certificate card */
+
 .card img {
     width: 100%;
     aspect-ratio: 16 / 10;   /* keeps every image the same shape */
@@ -302,7 +296,7 @@ section {
     font-style: italic;
 }
 
-/* Certificate cards are <button>s, so we reset the button look */
+
 button.card {
     width: 100%;
     font: inherit;
